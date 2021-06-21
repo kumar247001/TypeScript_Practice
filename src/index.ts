@@ -1,9 +1,3 @@
-// Primitive Build-in Types
+const test = "Hello";
 
-let age: number = 35;
-
-let userName: string = "Kumar Gaurav";
-
-let isValid: boolean = true;
-
-console.log(age, userName, isValid);
+console.log(test);

@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+footer #form {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+#form .form-control {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+#form .form-control label, #form .form-control input {
+  width: 100%;
+} 
